@@ -1,0 +1,111 @@
+{
+  "file": "D:\\VSC\\THULI\\questions.json",
+  "startedAt": "2026-09-26T16:19:42.634Z",
+  "finishedAt": "2026-09-26T16:21:13.589Z",
+  "totalQuestions": 5,
+  "completed": 5,
+  "failed": 1,
+  "totals": {
+    "analystTokens": 41176,
+    "analystRupees": 2.1938576,
+    "auditorTokens": 42286,
+    "auditorRupees": 1.4927088,
+    "durationMs": 70906
+  },
+  "questions": [
+    {
+      "n": 1,
+      "question": "What was Salil Parekh's previous role before joining Infosys?",
+      "questionId": 19,
+      "status": "ok",
+      "analystTokens": 6320,
+      "analystRupees": 0.4502784,
+      "auditorTokens": 12962,
+      "auditorRupees": 0.4149904,
+      "durationMs": 14119,
+      "answerPreview": "Before joining Infosys, Salil Parekh served as Deputy CEO and was a member of the group management board at Capgemini, a",
+      "audit": {
+        "auditId": 9,
+        "totalClaims": 4,
+        "supported": 4,
+        "unsupported": 0,
+        "contradicted": 0
+      },
+      "error": null
+    },
+    {
+      "n": 2,
+      "question": "Which three Indian jewellery retailers opened the most new stores in the last two years?",
+      "questionId": 20,
+      "status": "ok",
+      "analystTokens": 12492,
+      "analystRupees": 0.5650128,
+      "auditorTokens": 0,
+      "auditorRupees": 0,
+      "durationMs": 10672,
+      "answerPreview": "The provided sources do not contain specific information identifying which three Indian jewellery retailers opened the m",
+      "audit": {
+        "auditId": 10,
+        "totalClaims": 0,
+        "supported": 0,
+        "unsupported": 0,
+        "contradicted": 0
+      },
+      "error": null
+    },
+    {
+      "n": 3,
+      "question": "List every company that raised funding in Indian quick commerce since January, with amounts, investors and dates.",
+      "questionId": 21,
+      "status": "ok",
+      "analystTokens": 17223,
+      "analystRupees": 0.8962888,
+      "auditorTokens": 29324,
+      "auditorRupees": 1.0777184,
+      "durationMs": 36400,
+      "answerPreview": "In Indian quick commerce since January, Zepto, Swiggy (Instamart), Snabbit, and Swish raised funding. Zepto secured fund",
+      "audit": {
+        "auditId": 11,
+        "totalClaims": 9,
+        "supported": 8,
+        "unsupported": 1,
+        "contradicted": 0
+      },
+      "error": null
+    },
+    {
+      "n": 4,
+      "question": "For Zepto, find its current head of engineering, when they joined, and where they worked before.",
+      "questionId": 22,
+      "status": "ok",
+      "analystTokens": 4772,
+      "analystRupees": 0.230912,
+      "auditorTokens": 0,
+      "auditorRupees": 0,
+      "durationMs": 7656,
+      "answerPreview": "The provided evidence does not mention Zepto's current head of engineering, when they joined, or where they worked befor",
+      "audit": {
+        "auditId": 12,
+        "totalClaims": 0,
+        "supported": 0,
+        "unsupported": 0,
+        "contradicted": 0
+      },
+      "error": null
+    },
+    {
+      "n": 5,
+      "question": "Which Indian quick-commerce company has never raised any funding?",
+      "questionId": 23,
+      "status": "analyst_failed",
+      "analystTokens": 369,
+      "analystRupees": 0.051365600000000004,
+      "auditorTokens": 0,
+      "auditorRupees": 0,
+      "durationMs": 2059,
+      "answerPreview": "",
+      "audit": null,
+      "error": "Gemini returned invalid JSON: {\n  \"subQuestions\": [\n    \"What are the major quick-commerce companies in India?\",\n    \"Which Indian quick-commerce startups have never raised external funding or venture capital?\"\n  ],\n  \"entitiesToC"
+    }
+  ]
+}
